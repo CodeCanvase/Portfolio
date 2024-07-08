@@ -1,0 +1,17 @@
+
+
+.playfair-display-normal {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+  }
+  
+
+
+
+
+/* Nave Styles */
+nav{
+    display: flex;
+}
