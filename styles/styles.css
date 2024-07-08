@@ -10,10 +10,12 @@
 
 
 
-
 /* Nave Styles */
 nav{
+    align-items: center;
+    justify-content: space-between;
     display: flex;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -21,7 +23,44 @@ nav{
     font-size: 45px;
 }
 
-/* logo middle color */
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+
+nav ul li {
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+/* Shared Color */
 .logo-color{
     color: #EC5B53;
+}
+
+.drak-2{
+    color:#242424;
+}
+
+.btn-primary{
+    background-color: #EC5B53;
+    color: white;
+    padding: 8px 18px;
+    border-color: #EC5B53;
+    border-radius: 2px;
+    font-size: 18px;
+
 }
