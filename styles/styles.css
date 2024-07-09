@@ -67,15 +67,26 @@ nav li a {
 
 
 /* banner Styles */
+
+.banner{
+    display:flex;
+}
+
 .banner-greetings{
     font-size: 25px;
     color: #EC5B53;
 }
+
+
 
 /* banners Titkle Styles */
 
 .banner-title{
     font-size: 35px;
     font-weight: 600px;
-    
+}
+
+.banner-profile-pic{
+    width: 580px;
+
 }
